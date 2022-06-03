@@ -59,10 +59,8 @@ while is_running:
         print("Invalid Entry. Try again")
         continue
 
-    continue_choice = input("Would you like to play again? [y,n] :")
+    continue_choice = input("Do you wish to continue? [y,n] :")
     if continue_choice == "y":
         pass
     if continue_choice == "n":
         is_running = False
-
-        print("The Rock births the Scissor and the Scissor is the death of the Paper.")
